@@ -1,7 +1,11 @@
 # CatGWR: Context-Attention Geographically Weighted Regression
 
-Context-Attention Geographically Weighted Regression
-
+<div align="center">
+<img alt="A flat design illustration of a sleek black cat as a mascot for a neural network model with an attention mechanism. The cat has minimalistic glowing eyes to symbolize focus and intelligence. Its body is stylized with simple geometric shapes, and subtle lines represent neural networks and connections. The background features abstract, flat map-like patterns and weighted grids to tie in geographically weighted regression. The color palette is modern, with dark and vibrant tones for contrast, emphasizing simplicity and clarity in the design." height="256" src="./figures/CatGWR_mascot.webp"/>  
+  
+generated with DALL‧E-3
+</div>
+  
 ## Description
 
 This method is an extension of GWR (Geographically Weighted Regression) model. 
