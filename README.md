@@ -8,7 +8,10 @@ generated with DALL‧E-3
   
 ## Description
 
-This method is an extension of GWR (Geographically Weighted Regression) model. 
+This method is an extension of GWR (Geographically Weighted Regression) model. The related article is published on _International Journal of Geographical Information Science_
+
+> Wu, S., Ding, J., Wang, R., Wang, Y., Yin, Z., Huang, B., & Du, Z. (2025). Using an attention-based architecture to incorporate context similarity into spatial non-stationarity estimation. _International Journal of Geographical Information Science_, 1–24. https://doi.org/10.1080/13658816.2025.2456556
+
 
 Context similarity, as a complement to spatial proximity, is introduced in geographically weighted regressions. An attention-based framework is developed to calculate the context similarity between locations.
 
