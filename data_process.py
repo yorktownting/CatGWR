@@ -80,9 +80,12 @@ class DataProcessor():
         df = pd.read_csv(path)
         # randomly select (OPTIONAL)
         # df = df.sample(frac=0.95, replace=False, random_state=11)
-        E = sp.coo_matrix((df.values[:, 2], (df.values[:, 0], df.values[:, 1])), shape=(node_num, node_num),
+        # E = sp.coo_matrix((df.values[:, 2], (df.values[:, 0], df.values[:, 1])), shape=(node_num, node_num),
+        #                   dtype=np.float32).todense()
+        dense_E = sp.coo_matrix((df.values[:, 2], (df.values[:, 0], df.values[:, 1])), shape=(node_num, node_num),
                           dtype=np.float32).todense()
-        return E
+
+        return dense_E
 
     def load_all_data(self, edge_path, vertex_path, feature_column, y_column, x_column=[], is_normalize_feature=True,
                       is_normalize_variable=True, device="cpu"):
